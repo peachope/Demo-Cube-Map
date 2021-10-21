@@ -47,7 +47,7 @@ function App() {
           </Canvas>
         </Suspense>
       </div>
-      <button onClick={changeMode}>Switch</button>
+      <button onClick={changeMode}>{isCube ? "Cube" : "Sphere"}</button>
     </div>
   );
 }
